@@ -21,10 +21,11 @@ output_folder =os.path.join(os.getcwd(), "Samples")
 os.makedirs(output_folder, exist_ok=True)
 
 #Defining the file name &full path to save the file
-file_name = "qrcode_sample1.png"
+file_name = "qrcode1.png"
 file_path = os.path.join(output_folder, file_name)
 
 # Save the QR code image
 img.save(file_path)
 
 print(f"QR code {file_name} saved in {file_path}")
+
